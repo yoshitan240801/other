@@ -1,0 +1,8 @@
+services:
+  my_app:
+    container_name: web_scraping_livedoor_blog
+    build: .
+    volumes:
+      - ./work:/workdir
+    tty: true
+    command: bash -c "python main.py && /bin/bash"
