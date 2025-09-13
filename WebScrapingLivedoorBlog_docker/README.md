@@ -1,6 +1,6 @@
 # このフォルダのプログラムについて
 
-このフォルダのmainプログラム(main.py)は、livedoorブログから要約文と本文を抽出してcsvファイルで出力します。<br>
+このフォルダのworkフォルダ内のmainプログラム(main.py)は、livedoorブログから要約文と本文を抽出してcsvファイルで出力します。<br>
 また、環境はdocker化していて、docker-compose up -d --buildで環境構築とプログラム実行を行います。
 
 ## 概要
